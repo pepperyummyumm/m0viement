@@ -1,0 +1,72 @@
+/* 기본 스타일 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 헤더 */
+.main-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.main-header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.main-video video {
+    width: 80%;
+    max-width: 1000px;
+    border: 5px solid #000;
+}
+
+/* 포트폴리오 섹션 */
+.portfolio-section {
+    padding: 50px 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.portfolio-section video {
+    width: 80%;
+    max-width: 800px;
+    border: 5px solid #fff;
+}
+
+/* 푸터 */
+footer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000;
+}
