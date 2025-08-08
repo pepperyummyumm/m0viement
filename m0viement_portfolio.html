@@ -3,41 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M0VIEMENT - Portfolio</title>
+    <title>M0VIEMENT 포트폴리오</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- 헤더 -->
     <header class="main-header">
         <h1>M0VIEMENT</h1>
-        <p>Film Portfolio</p>
+        <p>Film & Creative Portfolio</p>
         <div class="main-video">
-            <video src="main-video.mp4" autoplay muted loop></video>
+            <video controls autoplay muted loop>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                브라우저가 동영상을 지원하지 않습니다.
+            </video>
         </div>
     </header>
 
-    <!-- 섹션: 스노우보드 -->
+    <!-- 스노우보드 섹션 -->
     <section class="portfolio-section">
-        <h2>SNOWBOARD</h2>
-        <video src="snowboard.mp4" controls></video>
+        <h2>Snowboard</h2>
+        <div class="image-grid">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772" alt="Snowboard 1">
+            <img src="https://images.unsplash.com/photo-1549887534-4c1cefb0f3e7" alt="Snowboard 2">
+            <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846" alt="Snowboard 3">
+        </div>
     </section>
 
-    <!-- 섹션: 바이크 -->
+    <!-- 바이크 섹션 -->
     <section class="portfolio-section">
-        <h2>BIKE</h2>
-        <video src="bike.mp4" controls></video>
+        <h2>Bike</h2>
+        <div class="image-grid">
+            <img src="https://images.unsplash.com/photo-1529421308433-c7f1e3d8c2f0" alt="Bike 1">
+            <img src="https://images.unsplash.com/photo-1508973372-7f8e2d4d65a6" alt="Bike 2">
+            <img src="https://images.unsplash.com/photo-1520962918287-7448c2878f65" alt="Bike 3">
+        </div>
     </section>
 
-    <!-- 섹션: 웨딩 -->
+    <!-- 웨딩 섹션 -->
     <section class="portfolio-section">
-        <h2>WEDDING</h2>
-        <video src="wedding.mp4" controls></video>
+        <h2>Wedding</h2>
+        <div class="image-grid">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Wedding 1">
+            <img src="https://images.unsplash.com/photo-1530023367847-a683933f417b" alt="Wedding 2">
+            <img src="https://images.unsplash.com/photo-1520962918287-7448c2878f65" alt="Wedding 3">
+        </div>
     </section>
 
     <!-- 푸터 -->
     <footer>
-        <p>Contact: m0viement@example.com</p>
-        <p><a href="https://instagram.com/m0viement" target="_blank">Instagram</a></p>
+        <p>Contact: contact@m0viement.com | 
+           <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
     </footer>
 </body>
 </html>
